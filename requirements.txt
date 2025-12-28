@@ -1,0 +1,5 @@
+rawpy>=0.19
+numpy>=1.23
+opencv-python>=4.8
+imageio>=2.30
+scikit-image>=0.21
