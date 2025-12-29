@@ -3,7 +3,7 @@ import numpy as np
 import imageio.v3 as iio
 
 
-def load_raw(path="raw-photos/image.CR3"):
+def load_raw(path="raw-photos/example_1.CR3"):
     """
     Load RAW Bayer data and normalize to [0, 1].
     Returns (bayer, pattern).

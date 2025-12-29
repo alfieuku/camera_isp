@@ -8,7 +8,7 @@ import imageio.v3 as iio
 import numpy as np
 
 # 1) Load raw sensor data
-bayer, pattern = load_raw("raw-photos/image.CR3")
+bayer, pattern = load_raw("raw-photos/example_1.CR3")
 
 # 2) Demosaic (get RGB everywhere)
 rgb = demosaic(bayer, pattern)
