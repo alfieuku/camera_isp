@@ -5,4 +5,4 @@ Project to solidify understanding of image signal processing with a raw image. F
 3. white_balance.py - taking green pixel values and matching its average with red and blue to fix lighting problems
 4. color_correction.py - adjusting errors in sensor values per color
 5. tone_mapping.py - converting pixel values to display ready values
-6. main.py - running pipeline
+6. main.py - running pipeline and saving image checkpoints for each stage
